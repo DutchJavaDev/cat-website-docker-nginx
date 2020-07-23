@@ -1,8 +1,10 @@
 $(document).ready(function(){
 
+    var Time = 7500; // 7.5 secs
+
     Meow();
 
-    setInterval(Meow,10000);
+    setInterval(Meow,Time);
 
     function Meow()
     {
